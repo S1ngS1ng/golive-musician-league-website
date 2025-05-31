@@ -3,11 +3,12 @@
 import Image from 'next/image';
 import { Burger, Group, Title } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import logo from '../../public/go-live.svg';
+import logo from '../../public/instruments.svg';
 import classes from './nav-header.module.css';
+import Link from "next/link";
 
 const links = [
-  { link: '/Home', label: 'Home' },
+  { link: '/', label: 'Home' },
   { link: '/about', label: 'About' },
   { link: '/events', label: 'Events' },
 ];
@@ -16,14 +17,12 @@ export function NavHeader() {
   const [opened, { toggle }] = useDisclosure(false);
 
   const items = links.map((link) => (
-    <a
+    <Link
       key={link.label}
       href={link.link}
-      className={classes.link}
-      onClick={(event) => event.preventDefault()}
-    >
+      className={classes.link}>
       {link.label}
-    </a>
+    </Link>
   ));
 
   return (
