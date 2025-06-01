@@ -9,7 +9,6 @@
 .inner {
   height: 56px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -31,4 +30,15 @@
   @mixin hover {
     background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
   }
+
+  &[data-active] {
+    &[data-active] {
+      color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+      background: light-dark(var(--mantine-color-gray-2), var(--mantine-color-gray-8));
+    }
+  }
+}
+
+.navigation {
+  flex: 1;
 }
