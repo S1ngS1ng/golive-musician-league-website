@@ -7,6 +7,7 @@ import {
 } from '@mantine/core';
 import { theme } from '../theme';
 import { NavHeader } from '../components/nav-header/nav-header';
+import { NavThemeToggle } from "../components/nav-theme-toggle/nav-theme-toggle";
 
 export default function RootLayout({
   children
@@ -26,7 +27,9 @@ export default function RootLayout({
       </head>
       <body>
         <MantineProvider theme={theme} defaultColorScheme="auto">
-          <NavHeader />
+          <NavHeader>
+            <NavThemeToggle />
+          </NavHeader>
           {children}
         </MantineProvider>
       </body>
