@@ -33,8 +33,8 @@ export function NavHeader(props: { children: ReactElement }) {
     <header className={classes.header}>
       <div className={classes.inner}>
         <Group wrap="nowrap">
-          <Burger opened={opened} onClick={toggle} size="sm" hiddenFrom="sm" />
-          <Image src={logo} alt={"logo"} className={classes.logo} />
+          <Burger opened={opened} onClick={toggle} size="sm" hiddenFrom="sm"/>
+          <Image src={logo} alt={"logo"} className={classes.logo}/>
           <Title order={2}>GoLive Musician&#39;s League</Title>
         </Group>
 
