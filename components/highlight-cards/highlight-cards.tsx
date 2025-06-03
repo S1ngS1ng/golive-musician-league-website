@@ -38,7 +38,7 @@ export function HighlightCards() {
       </Title>
 
       <Text c="dimmed" className={classes.description} ta="center" mt="md">
-        A nonprofit music collective born from Silicon Valley's grassroots scene, GoLive Musician’s League creates inclusive spaces for local talent to shine. Through weekly jam nights, original showcases, and community-powered events.
+        A nonprofit music collective born from Silicon Valley&apos;s grassroots scene, GoLive Musician’s League creates inclusive spaces for local talent to shine. Through weekly jam nights, original showcases, and community-powered events.
       </Text>
 
       <SimpleGrid cols={{ base: 1, md: 4 }} spacing="xl" mt={50}>
