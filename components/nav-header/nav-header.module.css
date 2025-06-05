@@ -1,5 +1,4 @@
 .header {
-  height: 56px;
   background-color: var(--mantine-color-body);
   border-bottom: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
   padding-left: var(--mantine-spacing-md);
@@ -7,14 +6,19 @@
 }
 
 .inner {
-  height: 56px;
   display: flex;
   align-items: center;
+  gap: var(--mantine-spacing-sm);
 }
 
 .logo {
   height: 58px;
   width: auto;
+}
+
+.title {
+  padding-top: var(--mantine-spacing-xs);
+  padding-bottom: var(--mantine-spacing-xs);
 }
 
 .link {

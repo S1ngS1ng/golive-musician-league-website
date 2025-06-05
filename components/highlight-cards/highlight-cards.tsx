@@ -8,7 +8,7 @@ import {
   Title,
 } from '@mantine/core';
 import classes from './highlight-cards.module.css';
-import { CardContent } from "./card-content.const";
+import { CardContent } from './card-content.const';
 
 export function HighlightCards() {
   const features = CardContent.map((feature) => (

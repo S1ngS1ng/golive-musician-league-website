@@ -1,6 +1,6 @@
 import { Button, Container, Text, Title } from '@mantine/core';
 import classes from './hero-header.module.css';
-import Link from "next/link";
+import Link from 'next/link';
 
 export function HeroHeader() {
   return (
