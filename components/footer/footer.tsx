@@ -10,11 +10,11 @@ export function Footer() {
     component: IconAt,
     href: 'https://www.xiaohongshu.com/user/profile/64dffda30000000001012498',
   }, {
-    component: IconBrandYoutube,
-    href: 'https://www.youtube.com/@WeekendJam-BayArea',
-  }, {
     component: IconBrandInstagram,
     href: 'https://www.instagram.com/weekendjambayarea',
+  }, {
+    component: IconBrandYoutube,
+    href: 'https://www.youtube.com/@WeekendJam-BayArea',
   }];
 
   return (
