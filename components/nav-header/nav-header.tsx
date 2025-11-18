@@ -13,6 +13,7 @@ const links = [
   { link: '/', label: 'Home' },
   { link: '/about', label: 'About' },
   { link: '/events', label: 'Events' },
+  { link: '/donate', label: 'Donate' },
 ];
 
 export function NavHeader(props: { children: ReactElement }) {
