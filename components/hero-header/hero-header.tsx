@@ -33,6 +33,9 @@ export function HeroHeader() {
           <Button component={Link} href="/events" className={classes.control} size="lg">
             Join the Jam
           </Button>
+          <Button component={Link} href="/donate" className={classes.control} size="lg">
+            Donate
+          </Button>
         </div>
       </div>
     </Container>
