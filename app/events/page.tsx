@@ -23,7 +23,10 @@ export default async function Events() {
         <Text>
           To thank all the performers and supporters who have been part of <b>Weekend Jam</b>, we warmly invite you to join our <b>Year-End Music Party</b>!
         </Text>
-        <Space h="sm" />
+        <Anchor href="https://tinyurl.com/weekend-jam-signup" target="_blank" rel="noopener noreferrer">
+          Please RSVP via this link.
+        </Anchor>
+        <Space h="xs" />
 
         <Text>📅 <b>Date:</b> Saturday, November 22, 2025, at 6:00 PM</Text>
         <Text>📍 <b>Venue:</b> HalalStreet Hotpot Restaurant</Text>
