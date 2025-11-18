@@ -31,7 +31,9 @@ export default function RootLayout({
           <NavHeader>
             <NavThemeToggle />
           </NavHeader>
-          {children}
+          <main>
+            {children}
+          </main>
           <Footer/>
         </MantineProvider>
       </body>
