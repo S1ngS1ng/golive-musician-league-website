@@ -9,7 +9,7 @@ export default async function Donate() {
             Donate via Benevity
           </Title>
           <Text mb="sm">
-            If your company supports Benevity, you can donate directly through your corporate giving portal. Simply log in to your company’s Benevity page and search for: "GoLive Musician’s League"
+            If your company supports Benevity, you can donate directly through your corporate giving portal. Simply log in to your company’s Benevity page and search for: &quot;GoLive Musician’s League&quot;
           </Text>
 
           <Anchor
