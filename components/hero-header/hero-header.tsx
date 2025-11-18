@@ -30,7 +30,7 @@ export function HeroHeader() {
           <Button component={Link} href="/about" className={classes.control} size="lg" variant="default" color="gray">
             About Us
           </Button>
-          <Button component={Link} href="/events" className={classes.control} size="lg">
+          <Button component={Link} href="/events" className={classes.control} size="lg" variant="default">
             Join the Jam
           </Button>
           <Button component={Link} href="/donate" className={classes.control} size="lg">

@@ -2,10 +2,10 @@ import { Anchor, Container, Space, Stack, Text, Title } from '@mantine/core';
 
 export default async function Events() {
   return (
-    <Container size={'lg'}>
-      <Stack gap='xs'>
-        <Title order={2} my={'md'}>Weekend Jam Year-End Party | Proudly Presents GoLive</Title>
-        <Title order={3} my={'sm'}>About GoLive Musician’s League</Title>
+    <Container size="lg">
+      <Stack gap="xs">
+        <Title order={2} my="md">Weekend Jam Year-End Party | Proudly Presents GoLive</Title>
+        <Title order={3} my="sm">About GoLive Musician’s League</Title>
         <Text>
           <b>GoLive Musician’s League</b> grew out of a spontaneous music community known as <b>Weekend Jam</b>. Founded in late 2023 by a group of friends who love singing, playing instruments, and sharing the joy of performing, GoLive has since become a registered <b>501(c)(3) nonprofit organization</b> in the United States.
         </Text>
@@ -16,7 +16,7 @@ export default async function Events() {
           Through events like <b>Weekend Jam</b>, we provide open stages for musicians, encourage artistic exchange, and bring together community members who share a passion for music—offering a welcoming space to connect, share, and create.
         </Text>
 
-        <Title order={3} my={'sm'}>Weekend Jam Year-End Party</Title>
+        <Title order={3} my="sm">Weekend Jam Year-End Party</Title>
         <Text>
           As its influence continues to grow, <b>Weekend Jam</b> has become a vital hub for grassroots music culture in Silicon Valley. Partnering with various restaurants and bars across the Bay Area, we host live sessions every Saturday night that attract musicians, singers, and music enthusiasts who gather to celebrate the freedom and passion of live music.
         </Text>
@@ -38,7 +38,7 @@ export default async function Events() {
           <Anchor href="https://benevity.com" target="_blank" rel="noopener noreferrer">
             benevity.com
           </Anchor>{' '}
-          by searching for <b>“GoLive Musician’s League.”</b>
+          by searching for <b>&quot;GoLive Musician’s League.&quot;</b>
         </Text>
 
         <Space h="sm" />
