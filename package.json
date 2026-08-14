@@ -6,23 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@mantine/core": "7.17.2",
-    "@mantine/hooks": "7.17.2",
+    "@mantine/core": "9.5.1",
+    "@mantine/hooks": "9.5.1",
     "@tabler/icons-react": "^3.33.0",
     "clsx": "^2.1.1",
-    "next": "15.2.3",
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "next": "16.2.11",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
     "@types/node": "22.13.11",
-    "@types/react": "19.0.12",
-    "@types/react-dom": "19.0.4",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
     "eslint": "9.23.0",
-    "eslint-config-next": "15.2.3",
+    "eslint-config-next": "16.2.11",
     "postcss": "^8.5.3",
     "postcss-preset-mantine": "1.17.0",
     "postcss-simple-vars": "^7.0.1",
