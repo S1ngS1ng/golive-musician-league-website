@@ -1,7 +1,6 @@
 import { ActionIcon, Container, Group, Text } from '@mantine/core';
 import { IconAt, IconBrandInstagram, IconBrandYoutube } from '@tabler/icons-react';
 import classes from './footer.module.css';
-import Link from 'next/link';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -30,7 +29,7 @@ export function Footer() {
             size="lg"
             color="gray"
             variant="subtle"
-            component={Link}
+            component="a"
             target="_blank"
             href={AccountLink.href}>
             <AccountLink.component size={18} stroke={1.5} />

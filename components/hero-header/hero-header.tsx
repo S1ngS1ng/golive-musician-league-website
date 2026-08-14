@@ -1,3 +1,5 @@
+'use client';
+
 import { Button, Container, Text, Title } from '@mantine/core';
 import classes from './hero-header.module.css';
 import Link from 'next/link';
